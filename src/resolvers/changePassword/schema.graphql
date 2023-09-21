@@ -1,0 +1,7 @@
+type ChangePasswordResult {
+  success: Boolean
+}
+
+extend type Query {
+  changePassword(email: String!, password: String!): ChangePasswordResult
+}

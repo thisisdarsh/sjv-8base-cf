@@ -1,0 +1,14 @@
+{
+  "data": {
+    "input": {
+      "email": "test.dev1225@gmail.com",
+      "subject": "test",
+      "messages": "test",
+      "token": "ya29.a0Ael9sCNhros415QMYSkzSrmC6z6jJKFiI4YxpTcjcU4WKryUYwFX2wtBE-KNt5ya7SK5ENRSzjXbj88M7kHu8hnjBQx57Plam5YbY0KVczJzwVHZdInLuatZYaRhxgFOcPXTGZQgay4oPkixvlk1C9HrKDtPaCgYKAacSARISFQF4udJhErKBUQagHN-95ij5-OyBrA0163"
+    }
+  },
+  "headers": {
+    "x-header-1": "header value"
+  },
+  "body": "{\"foo\":\"bar\"}"
+}

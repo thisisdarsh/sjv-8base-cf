@@ -1,0 +1,10 @@
+{
+  "data": {
+    "email": "chazeprasad@gmail.com",
+    "password": "Pass1234"
+  },
+  "headers": {
+    "x-header-1": "header value"
+  },
+  "body": "{\"foo\":\"bar\"}"
+}

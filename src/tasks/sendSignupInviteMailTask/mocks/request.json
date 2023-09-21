@@ -1,0 +1,11 @@
+{
+  "data": {
+    "email": "crazycoder08@gmail.com",
+    "firstName": "first",
+    "lastName": "last"
+  },
+  "headers": {
+    "x-header-1": "header value"
+  },
+  "body": "{\"foo\":\"bar\"}"
+}

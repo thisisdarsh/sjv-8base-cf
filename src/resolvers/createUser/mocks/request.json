@@ -1,0 +1,14 @@
+{
+  "data": {
+    "firstName": "Test",
+    "lastName": "Test",
+    "email": "chazeprasad@gmail.com",
+    "password": "Pass12345",
+    "roles": [{ "id": "cknjbrjfe00jj0cjw5xfjbiir" }],
+    "authProfileId": "cle32diy1000p09mgayrl29tv"
+  },
+  "headers": {
+    "x-header-1": "header value"
+  },
+  "body": "{\"foo\":\"bar\"}"
+}

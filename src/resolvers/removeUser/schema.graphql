@@ -1,0 +1,7 @@
+type RemoveUserResult {
+  success: Boolean
+}
+
+extend type Mutation {
+  removeUser(email: String!): RemoveUserResult
+}

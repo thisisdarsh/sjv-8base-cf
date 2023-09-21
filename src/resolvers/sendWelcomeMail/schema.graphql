@@ -1,0 +1,7 @@
+type SendWelcomeMailResult {
+  success: Boolean
+}
+
+extend type Mutation {
+  sendWelcomeMail(email: String!, password: String!, loginUri: String!): SendWelcomeMailResult
+}

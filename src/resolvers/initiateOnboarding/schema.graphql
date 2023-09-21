@@ -1,0 +1,8 @@
+
+type InitiateOnboardingResult {
+  success: Boolean
+}
+
+extend type Mutation {
+  initiateOnboarding(email: String!): InitiateOnboardingResult
+}

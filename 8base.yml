@@ -1,0 +1,83 @@
+functions:
+  task:
+    type: task
+    handler:
+      code: src/tasks/task/handler.ts
+  webhook:
+    type: webhook
+    handler:
+      code: src/webhooks/webhook/handler.ts
+    path: /webhook
+    method: POST
+  userForgotPassword:
+    type: resolver
+    handler:
+      code: src/resolvers/userForgotPassword/handler.ts
+    schema: src/resolvers/userForgotPassword/schema.graphql
+  changePassword:
+    type: resolver
+    handler:
+      code: src/resolvers/changePassword/handler.ts
+    schema: src/resolvers/changePassword/schema.graphql
+  sendWelcomeMail:
+    type: resolver
+    handler:
+      code: src/resolvers/sendWelcomeMail/handler.ts
+    schema: src/resolvers/sendWelcomeMail/schema.graphql
+  sendMailFromGoogle:
+    type: resolver
+    handler:
+      code: src/resolvers/sendMailFromGoogle/handler.js
+    schema: src/resolvers/sendMailFromGoogle/schema.graphql
+  sendMailFromOutlook:
+    type: resolver
+    handler:
+      code: src/resolvers/sendMailFromOutlook/handler.js
+    schema: src/resolvers/sendMailFromOutlook/schema.graphql
+  createUser:
+    type: resolver
+    handler:
+      code: src/resolvers/createUser/handler.ts
+    schema: src/resolvers/createUser/schema.graphql
+  sendWelcomeEmailTask:
+    type: task
+    handler:
+      code: src/tasks/sendWelcomeEmailTask/handler.ts
+  initiateOnboarding:
+    type: resolver
+    handler:
+      code: src/resolvers/initiateOnboarding/handler.ts
+    schema: src/resolvers/initiateOnboarding/schema.graphql
+  sendSignupInviteMailTask:
+    type: task
+    handler:
+      code: src/tasks/sendSignupInviteMailTask/handler.ts
+  removeUser:
+    type: resolver
+    handler:
+      code: src/resolvers/removeUser/handler.ts
+    schema: src/resolvers/removeUser/schema.graphql
+  activateUser:
+    type: webhook
+    handler:
+      code: src/webhooks/activateUser/handler.ts
+    path: activate-user
+    method: PUT
+  sendSMS:
+    type: resolver
+    handler:
+      code: src/resolvers/sendSMS/handler.js
+    schema: src/resolvers/sendSMS/schema.graphql
+  sendSMSTask:
+    type: task
+    handler:
+      code: src/tasks/sendSMSTask/handler.js
+  createTasksAutomation:
+    type: trigger.after
+    handler:
+      code: src/triggers/createTasksAutomation/handler.js
+    operation: phase.update
+  createTasks:
+    type: task
+    handler:
+      code: src/tasks/createTasks/handler.js
